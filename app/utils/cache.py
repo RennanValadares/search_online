@@ -1,7 +1,6 @@
 import json
 import redis.asyncio as redis
-from typing import Any, Optional
-from datetime import timedelta
+from typing import Any, Optional, Dict
 
 from app.domain.contracts import CacheProvider
 from app.core.logger import get_logger
